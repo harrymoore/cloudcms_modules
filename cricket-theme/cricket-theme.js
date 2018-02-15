@@ -1,6 +1,6 @@
 define(function(require, exports, module) {
 
-    var moduleId = module.uri.match(/^.+(_modules[^\/]+)\/.*/)[1];
+    var moduleId = module.uri.match(/^.*(_modules[^\/]+)\/.*$/)[1];
 
     // require("css!bootstrap/../../css/bootstrap.css");
     // require("css!app/../../main.css");
